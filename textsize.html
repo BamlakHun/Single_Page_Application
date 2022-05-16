@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis ea temporibus ratione quaerat consequatur quisquam! Cumque beatae atque, 
+        cupiditate officia nesciunt omnis iusto, perferendis at doloremque, quibusdam iste pariatur!
+    </p>
+    <select> <!--create a drop down options the options are as follows -->
+        <option value="large"> Large Text </option>
+        <option value="intiial" selected> Medium Text </option>
+        <option value="small"> Small Text </option>
+    </select>
+    <script>
+        // no select id since it is the only one
+        // on change any time we chanage a value make action 
+        document.querySelector('select').onchange = function(){
+            document.querySelector('p').style.fontSize = this.value;
+        }
+    </script>
+    
+</body>
+</html>

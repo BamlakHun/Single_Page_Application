@@ -1,0 +1,28 @@
+
+.title{
+    text-align: left;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.total{
+    color: black;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+.cells
+{
+    background-color: blueviolet;
+}
+.cell{
+    
+    background-color: rgb(246, 248, 246);
+}
+
+td{
+    border: 1px solid yellowgreen;
+    padding: auto;
+
+}
+
